@@ -5,7 +5,7 @@ ACID (Atomicidade, Consistência, Isolamento e Durabilidade): Conjunto de propri
 
 Alerta SQL: Recurso que monitora consultas e envia notificações automáticas quando os dados atingem um limite específico (ex: um valor estático ou agregação como SOMA ou MÉDIA)
 
-Apache Spark: Motor de processamento distribuído de código aberto que alimenta clusters de computação e SQL warehouses no Databricks
+Apache Spark: Framework distribuído para processamento de grandes volumes de dados
 
 Arquitetura Medalhão (Medallion Architecture): Padrão de design de dados que organiza o lakehouse em camadas (Bronze, Silver e Gold) para o refinamento progressivo da qualidade e estrutura dos dados
 
@@ -43,7 +43,7 @@ Gold (Camada): Camada final da arquitetura medalhão; contém dados curados, agr
 
 
 ## L
-Lakebase Postgres: Banco de dados de processamento de transações online (OLTP) totalmente gerenciado e integrado ao ambiente do lakehouse
+Lakehouse: Arquitetura que combina características de Data Lakes e Data Warehouses
 
 LakeFlow: Solução de engenharia de dados unificada de ponta a ponta que engloba ingestão (Connect), transformação (Spark/Designer) e orquestração (Jobs)
 
